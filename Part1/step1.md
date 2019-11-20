@@ -8,14 +8,15 @@ Browse to the directory:
 Pull the Docker images defined in docker-compose.yml:
 `docker-compose pull`{{execute}}
 
-#Verification
+
+Verification:
 
 When the required images are successfully pulled, the terminal returns the following:
 
-Pulling openssl ... done
-Pulling bot_app ... done
-Pulling database ... done
-Pulling conjur ... done
-Pulling proxy ... done
-Pulling client ... done
+Pulling openssl ... done \n
+Pulling bot_app ... done \n
+Pulling database ... done \n
+Pulling conjur ... done \n
+Pulling proxy ... done \n
+Pulling client ... done \n
 
