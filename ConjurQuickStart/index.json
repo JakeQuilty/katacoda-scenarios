@@ -1,10 +1,10 @@
 {
-  "title": "Creating Your First Katacoda Scenario",
-  "description": "Learn how to create your first Katacoda scenario",
+  "title": "Conjur Quick Start",
+  "description": "The quick start guides you through the process of setting up a Conjur OSS environment and retrieving a secret from Conjur to your application.",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Scenario Structure",
+        "title": "Step 1 - Setup a Conjur OSS Environment",
         "text": "step1.md"
       },
       {
