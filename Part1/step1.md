@@ -13,10 +13,15 @@ Verification:
 
 When the required images are successfully pulled, the terminal returns the following:
 
-Pulling openssl ... done \n
-Pulling bot_app ... done \n
-Pulling database ... done \n
-Pulling conjur ... done \n
-Pulling proxy ... done \n
-Pulling client ... done \n
+Pulling openssl ... done
+
+Pulling bot_app ... done
+
+Pulling database ... done
+
+Pulling conjur ... done
+
+Pulling proxy ... done
+
+Pulling client ... done
 

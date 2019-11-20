@@ -9,8 +9,16 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Scenario Syntax",
+        "title": "Step 2 - Generate and Load the Master Key",
         "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Start the Conjur OSS Environment",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Create Admin Account and Connect to Conjur Server",
+        "text": "step4.md"
       }
     ],
     "intro": {
