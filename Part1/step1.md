@@ -1,10 +1,21 @@
-10 min.
+Clone the GitHub repository to your working directory:
 
-In this unit you will learn how to install Conjur OpenSource using Docker.
+`git clone https://github.com/cyberark/conjur-quickstart.git`{{execute}}
 
-At the end of this section:
-You will have a working Conjur OSS environment with a Conjur account and an admin user.
+Browse to the directory:
+`cd conjur-quickstart`{{execute}}
 
-"git clone https://github.com/cyberark/conjur-quickstart.git"{{execute}}
+Pull the Docker images defined in docker-compose.yml:
+`docker-compose pull`{{execute}}
 
+#Verification
+
+When the required images are successfully pulled, the terminal returns the following:
+
+Pulling openssl ... done
+Pulling bot_app ... done
+Pulling database ... done
+Pulling conjur ... done
+Pulling proxy ... done
+Pulling client ... done
 
