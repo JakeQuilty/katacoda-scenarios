@@ -1,6 +1,6 @@
 Clone the GitHub repository to your working directory:
 
-`git clone https://github.com/cyberark/conjur-quickstart.git`{{execute}}
+`git clone https://github.com/AndrewCopeland/conjur-quickstart.git`{{execute}}
 
 Browse to the directory:
 `cd conjur-quickstart`{{execute}}
