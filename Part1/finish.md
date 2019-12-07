@@ -1,1 +1,1 @@
-Congratulations. You have completed the scenario on the foundations of creating Katacoda content. Continue looking at examples on katacoda.com/scenario-examples
+Congratulations. You have completed the scenario on Setting Up a Conjur OSS Environment! For more information head to https://www.conjur.org
