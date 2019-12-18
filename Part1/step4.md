@@ -11,3 +11,7 @@ This is a one-time action. For the duration of the container’s life or until a
 Use the account name that you created in the last step:
 
 `docker-compose exec client conjur init -u conjur -a myConjurAccount`{{execute}}
+
+Verification:
+The terminal returns the following output:
+Wrote configuration to /root/.conjurrc

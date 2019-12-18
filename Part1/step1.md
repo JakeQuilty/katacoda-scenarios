@@ -8,6 +8,8 @@ Browse to the directory:
 Pull the Docker images defined in docker-compose.yml:
 `docker-compose pull`{{execute}}
 
+**WAIT UNTIL ALL IMAGES ARE PULLED BEFORE CONTINUING**
+
 
 Verification:
 

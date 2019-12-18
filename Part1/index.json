@@ -19,6 +19,21 @@
       {
         "title": "Step 4 - Create Admin Account and Connect to Conjur Server",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Define Policy",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Load the Sample Policy",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Store a Secret in Conjur",
+        "text": "step7.md"
+      },{
+        "title": "Step 8 - Run the Demo App",
+        "text": "step8.md"
       }
     ],
     "intro": {
