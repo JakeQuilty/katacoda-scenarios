@@ -3,6 +3,8 @@ In this unit you will learn how to store your first secret in Conjur.
 **Log in as Dave**
 Log in as Dave, the human user. When prompted for a password, copy  and paste Dave's API key stored in the *my_app_data* file:
 
+`cat my_app_data`{{execute}}
+
 `docker-compose exec client conjur authn login -u Dave@BotApp`{{execute}}
 
 Verification:

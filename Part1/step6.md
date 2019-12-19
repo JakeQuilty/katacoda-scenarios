@@ -2,7 +2,7 @@
 
 Load the provided sample policy into Conjur built-in *root* policy to create resources for the BotApp:
 
-`docker-compose exec client conjur policy load root policy/BotApp.yml > my_app_data`{{execute}}
+`docker-compose exec client conjur policy load root BotApp.yml > my_app_data`{{execute}}
 
 Conjur generates the following API keys and stores them in a file, my_app_data:
 * An API key for Dave, the human user. This key is used to authenticate user Dave to Conjur.
@@ -16,6 +16,7 @@ The termial returns:
 Loaded policy 'root'
 
 **Log out of Conjur**
+
 Log out of Conjur:
 `docker-compose exec client conjur authn logout`{{execute}}
 
