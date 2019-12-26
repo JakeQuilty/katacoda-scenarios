@@ -8,7 +8,7 @@ As a privileged user, you will load a policy that defines a human user, a non-hu
 
 **Copy the Sampke Policy**
 
-Copy the sample policy to the Conjur Client
+Copy the sample policy to the Conjur Client *work around step*
 
 `docker cp ./conf/policy/BotApp.yml conjur_client:/BotApp.yml`{{execute}}
 
