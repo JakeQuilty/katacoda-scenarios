@@ -1,6 +1,6 @@
 In this unit you will learn how to program an application to fetch a secret from Conjur using the REST API.
 
-Athe the end of this section:
+At the the end of this section:
 You will know how to leverage Conjur's ability to store your application's secrets securely.
 
 **Start a bash session**
@@ -11,9 +11,13 @@ Enter the BotApp container.
 **Generate a Conjur Token**
 Generate a Conjur token to the *conjur_token* file, using the BotApp API key:
 
-`curl -d "<BotApp API Key>" -k https://proxy/authn/myConjurAccount/host%2FBotApp%2FmyDemoApp/authenticate > /tmp/conjur_token`
+`curl -d "<BotApp API Key>" -k https://proxy/authn/myConjurAccount/host%2FBotApp%2FmyDemoApp/authenticate > /tmp/conjur_token`{{execute}}
 
 The Conjur token is stored in the *conjur_token* file.
+
+Copy the sample policy to the Conjur Client
+
+`docker cp ./conf/policy/BotApp.yml conjur_client:/BotApp.yml`{{execute}}
 
 **Fetch the Secret**
 Run program to fetch the secret:
