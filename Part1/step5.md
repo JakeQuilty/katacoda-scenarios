@@ -6,7 +6,7 @@ A sample application policy named BotApp.yml is provided in the client container
 At the end of this section:
 As a privileged user, you will load a policy that defines a human user, a non-human user that represents your application, and a variable.
 
-**Copy the Sampke Policy**
+**Copy the Sample Policy**
 
 Copy the sample policy to the Conjur Client *work around step*
 
