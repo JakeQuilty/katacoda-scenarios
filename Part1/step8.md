@@ -12,19 +12,16 @@ Enter the BotApp container.
 
 `docker exec -it bot_app bash`{{execute}}
 
-**Generate a Conjur Token**
-Generate a Conjur token to the *conjur_token* file, using the BotApp API key:
+**Export BotApp API Key**
+Export the API Key of the BotApp to be used in the secret retrieval script.
 
-Copy and paste this command into the terminal, but don't forget to replace <BotApp API Key> with the API key for the BotApp
+`export BOT_APP_API_KEY=<api key>`{{copy}}
 
-`curl -d "<BotApp API Key>" -k https://proxy/authn/myConjurAccount/host%2FBotApp%2FmyDemoApp/authenticate > /tmp/conjur_token`{{copy}}
-
-The Conjur token is stored in the *conjur_token* file.
 
 **Fetch the Secret**
 Run program to fetch the secret:
 
-`/tmp/program.sh`{{execute}}
+`./program.sh`{{execute}}
 
 The secret is displayed.
 
