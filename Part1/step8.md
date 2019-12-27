@@ -5,7 +5,7 @@ You will know how to leverage Conjur's ability to store your application's secre
 
 **Copy the sample policy to the Conjur Client** *work around step*
 
-`docker cp ./program.sh bot_app:/tmp`{{execute}}
+`docker cp ./program.sh bot_app:/`{{execute}}
 
 **Start a bash session**
 Enter the BotApp container.
