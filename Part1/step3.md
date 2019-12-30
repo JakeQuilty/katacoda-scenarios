@@ -1,5 +1,5 @@
 Start the Conjur OSS environment:
-`docker-compose up -d`{{execute}}
+`docker-compose up -d --build`{{execute}}
 
 When Conjur OSS starts, the terminal returns the following:
 
