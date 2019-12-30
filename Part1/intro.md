@@ -1,1 +1,1 @@
-In this scenario, you will learn how to create your first Katacoda scenario. It will explain the essential aspects and the design decisions that you need to be aware of.
+In this scenario, you will learn how to create your first Conjur environment. The quick start guides you through the process of setting up a Conjur OSS environment and retrieving a secret from Conjur to your application.
