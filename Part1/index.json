@@ -1,6 +1,6 @@
 {
   "title": "Conjur Quick Start Tutorial",
-  "description": "In this unit you will learn how to install Conjur OpenSource using Docker and retrieve a secret.",
+  "description": "The quick start guides you through the process of setting up a Conjur OSS environment and retrieving a secret from Conjur to your application.",
   "time": "20",
   "details": {
     "steps": [
